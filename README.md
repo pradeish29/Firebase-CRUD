@@ -25,6 +25,26 @@ This is a basic CRUD (Create, Read, Update, Delete) application built with React
 
 1. Clone the repository:
 
-   ```sh
+   ```bash
    git clone https://github.com/pradeish29/Firebase-CRUD.git
    cd Firebase-CRUD
+2.Install the dependencies:
+```bash
+npm install
+```
+3.Set up Firebase:
+
+-Go to the Firebase Console.
+-Create a new project.
+-Add a web app to your project.
+-Copy the Firebase config object and replace the placeholder in your project. 
+-Install firebase
+```bash
+npm install firebase
+```
+
+4.Start the development server:
+```bash
+npm start
+```
+The app should now be running on http://localhost:3000.
